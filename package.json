@@ -30,7 +30,7 @@
     "pdfjs-dist": "^2.1.266",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-element": "^1.0.1",
-    "vue-loader": "^15.7.0",
+    "vue-loader": "^15.7.1",
     "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.3"

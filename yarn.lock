@@ -2395,7 +2395,7 @@ commander@2.17.x:
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha1-vXerfebelCBc6sxy8XFtKfIKd78=
 
-commander@^2.15.1, commander@^2.16.0, commander@^2.18.0, commander@^2.19.0, commander@^2.20.0:
+commander@^2.15.1, commander@^2.18.0, commander@^2.19.0, commander@^2.20.0:
   version "2.20.0"
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
@@ -5083,14 +5083,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-katex@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.npm.taobao.org/katex/download/katex-0.10.0.tgz#da562e5d0d5cc3aa602e27af8a9b8710bfbce765"
-  integrity sha1-2lYuXQ1cw6pgLievipuHEL+852U=
-  dependencies:
-    commander "^2.16.0"
-
-katex@^0.10.2:
+katex@0.10.2, katex@^0.10.2:
   version "0.10.2"
   resolved "https://registry.npm.taobao.org/katex/download/katex-0.10.2.tgz#39973edbb65eda5b6f9e7f41648781e557dd4932"
   integrity sha1-OZc+27Ze2ltvnn9BZIeB5VfdSTI=
@@ -8817,13 +8810,13 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha1-J1b0bLMlgFTF9HI96K5+hzAqHM8=
 
-vue-katex@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/vue-katex/download/vue-katex-0.2.0.tgz#cb73cfdbb37852eadc3164cedc621ee895e33500"
-  integrity sha1-y3PP27N4UurcMWTO3GIe6JXjNQA=
+vue-katex@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/vue-katex/-/vue-katex-0.2.1.tgz#333c1ac1b9ad884bc64665ff88ae848b76b6a64c"
+  integrity sha512-lsx/rEb3Q6sMuOmTQGMJZReqRxOTNzFzBLWAwZeko7CWlG2467mH/RZ+7F+PbGt4XDN4fWTxKjXqzWNrZoBAKw==
   dependencies:
-    katex "0.10.0"
-    vue "^2.5.21"
+    katex "0.10.2"
+    vue "^2.6.10"
 
 vue-loader@^15.7.0, vue-loader@^15.7.1:
   version "15.7.1"
@@ -8886,7 +8879,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.5.21, vue@^2.6.10:
+vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha1-pysaQqTYKnIepDjRtr9V5mGVxjc=

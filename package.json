@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "element-ui": "^2.11.1",
-    "katex": "^0.10.2",
+    "katex": "^0.11.0",
     "mavon-editor": "^2.7.5",
     "vue": "^2.6.10",
     "vue-katex": "^0.2.0",

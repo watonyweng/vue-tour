@@ -28,7 +28,7 @@
     "lint-staged": "^9.2.0",
     "node-sass": "^4.12.0",
     "pdfjs-dist": "^2.1.266",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^7.2.0",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.7.1",
     "vue-svg-loader": "^0.12.0",

@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "element-ui": "^2.11.1",
-    "katex": "^0.10.2",
+    "katex": "^0.11.1",
     "mavon-editor": "^2.7.5",
     "vue": "^2.6.10",
-    "vue-katex": "^0.2.0",
+    "vue-katex": "^0.2.1",
     "vue-pdf": "^4.0.7",
     "vue-router": "^3.1.2"
   },
@@ -22,10 +22,13 @@
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
     "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.2",
     "babel-runtime": "^6.26.0",
     "css-loader": "^3.2.0",
+    "eslint": "^5.0.0",
+    "eslint-plugin-vue": "^5.2.3",
     "git-contributor": "^1.0.10",
-    "lint-staged": "^9.2.0",
+    "lint-staged": "^9.2.1",
     "node-sass": "^4.12.0",
     "pdfjs-dist": "^2.1.266",
     "sass-loader": "^7.2.0",
@@ -33,7 +36,10 @@
     "vue-loader": "^15.7.1",
     "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.35.3"
+    "webpack": "^4.39.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
   },
   "eslintConfig": {
     "root": true,

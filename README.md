@@ -1,4 +1,4 @@
-# vuejs-tour 
+# vuejs-tour
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvuejs-tour?ref=badge_shield)
 
@@ -6,7 +6,7 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 
 ## Environment
 
-- [Node](https://nodejs.org/en)
+- [Node](https://nodejs.org)
 - [Git](https://git-scm.com)
 
 ## FullStack

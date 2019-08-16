@@ -9,7 +9,8 @@
                 src="../assets/logo.png"
                 width="64"
                 height="64"
-                class="nav-logo">
+                class="nav-logo"
+              >
             </slot>
           </router-link>
         </h1>
@@ -17,20 +18,20 @@
           <li class="nav-item">
             <router-link
               active-class="active"
+              to="/"
+              exact
+            >
+              Home
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              active-class="active"
               to="/editor"
-              exact>Editor</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
-              active-class="active"
-              to="/katex"
-              exact>Katex</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
-              active-class="active"
-              to="/file"
-              exact>File</router-link>
+              exact
+            >
+              Editor
+            </router-link>
           </li>
         </ul>
       </div>

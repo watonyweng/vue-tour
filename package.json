@@ -37,7 +37,7 @@
     "vue-loader": "^15.7.1",
     "vue-svg-loader": "^0.12.0",
     "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.39.3"
+    "webpack": "^4.40.2"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"

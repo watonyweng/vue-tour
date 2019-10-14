@@ -9,6 +9,12 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 - [Node](https://nodejs.org)
 - [Git](https://git-scm.com)
 
+## Requirements
+
+- [![Platform Support](https://img.shields.io/badge/Node-12.10.0-green)](https://nodejs.org)
+- [![Platform Support](https://img.shields.io/badge/Vue-2.6.10-green)](https://vuejs.org)
+- [![Platform Support](https://img.shields.io/badge/Git-2.22.0-green)](https://git-scm.com)
+
 ## FullStack
 
 - [KaTeX](https://github.com/KaTeX/KaTeX)

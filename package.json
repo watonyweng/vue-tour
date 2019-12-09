@@ -25,7 +25,7 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.0.3",
     "babel-runtime": "^6.26.0",
-    "css-loader": "^3.2.0",
+    "css-loader": "^3.2.1",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.0.1",
@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "eslint": "^6.7.1",
-    "katex": "^0.10.2"
+    "katex": "^0.11.1"
   },
   "eslintConfig": {
     "root": true,

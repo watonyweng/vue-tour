@@ -1168,6 +1168,21 @@
     source-map "~0.6.1"
     vue-template-es2015-compiler "^1.9.0"
 
+"@vue/component-compiler-utils@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/@vue/component-compiler-utils/download/@vue/component-compiler-utils-3.1.0.tgz#64cd394925f5af1f9c3228c66e954536f5311857"
+  integrity sha1-ZM05SSX1rx+cMijGbpVFNvUxGFc=
+  dependencies:
+    consolidate "^0.15.1"
+    hash-sum "^1.0.2"
+    lru-cache "^4.1.2"
+    merge-source-map "^1.1.0"
+    postcss "^7.0.14"
+    postcss-selector-parser "^5.0.0"
+    prettier "^1.18.2"
+    source-map "~0.6.1"
+    vue-template-es2015-compiler "^1.9.0"
+
 "@vue/eslint-config-prettier@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@vue/eslint-config-prettier/-/eslint-config-prettier-6.0.0.tgz#ad5912b308f4ae468458e02a2b05db0b9d246700"
@@ -3544,10 +3559,10 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^6.7.2:
-  version "6.7.2"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.7.2.tgz?cache=0&sync_timestamp=1575133582722&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint%2Fdownload%2Feslint-6.7.2.tgz#c17707ca4ad7b2d8af986a33feba71e18a9fecd1"
-  integrity sha1-wXcHykrXstivmGoz/rpx4Yqf7NE=
+eslint@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.8.0.tgz?cache=0&sync_timestamp=1576875900958&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Feslint%2Fdownload%2Feslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
+  integrity sha1-YiYtZylzn5J1cjgkMC+yJ8jJP/s=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -7980,6 +7995,11 @@ serialize-javascript@^2.1.1:
   resolved "https://registry.npm.taobao.org/serialize-javascript/download/serialize-javascript-2.1.1.tgz#952907a04a3e3a75af7f73d92d15e233862048b2"
   integrity sha1-lSkHoEo+OnWvf3PZLRXiM4YgSLI=
 
+serialize-javascript@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/serialize-javascript/download/serialize-javascript-2.1.2.tgz?cache=0&sync_timestamp=1575910505665&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fserialize-javascript%2Fdownload%2Fserialize-javascript-2.1.2.tgz#ecec53b0e0317bdc95ef76ab7074b7384785fa61"
+  integrity sha1-7OxTsOAxe9yV73arcHS3OEeF+mE=
+
 serve-index@^1.9.1:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/serve-index/download/serve-index-1.9.1.tgz#d3768d69b1e7d82e5ce050fff5b453bea12a9239"
@@ -8715,6 +8735,21 @@ terser-webpack-plugin@^1.4.1:
     webpack-sources "^1.4.0"
     worker-farm "^1.7.0"
 
+terser-webpack-plugin@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.npm.taobao.org/terser-webpack-plugin/download/terser-webpack-plugin-1.4.3.tgz?cache=0&sync_timestamp=1576580779363&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterser-webpack-plugin%2Fdownload%2Fterser-webpack-plugin-1.4.3.tgz#5ecaf2dbdc5fb99745fd06791f46fc9ddb1c9a7c"
+  integrity sha1-Xsry29xfuZdF/QZ5H0b8ndscmnw=
+  dependencies:
+    cacache "^12.0.2"
+    find-cache-dir "^2.1.0"
+    is-wsl "^1.1.0"
+    schema-utils "^1.0.0"
+    serialize-javascript "^2.1.2"
+    source-map "^0.6.1"
+    terser "^4.1.2"
+    webpack-sources "^1.4.0"
+    worker-farm "^1.7.0"
+
 terser-webpack-plugin@^2.2.1:
   version "2.2.2"
   resolved "https://registry.npm.taobao.org/terser-webpack-plugin/download/terser-webpack-plugin-2.2.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterser-webpack-plugin%2Fdownload%2Fterser-webpack-plugin-2.2.2.tgz#2a6e00237125564a455ad69b22e08ee59420473a"
@@ -9228,6 +9263,17 @@ vue-loader@^15.7.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-loader@^15.8.3:
+  version "15.8.3"
+  resolved "https://registry.npm.taobao.org/vue-loader/download/vue-loader-15.8.3.tgz#857cb9e30eb5fc25e66db48dce7e4f768602a23c"
+  integrity sha1-hXy54w61/CXmbbSNzn5PdoYCojw=
+  dependencies:
+    "@vue/component-compiler-utils" "^3.1.0"
+    hash-sum "^1.0.2"
+    loader-utils "^1.1.0"
+    vue-hot-reload-api "^2.3.0"
+    vue-style-loader "^4.1.0"
+
 vue-router@3.1.3:
   version "3.1.3"
   resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
@@ -9390,7 +9436,7 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.0.0, webpack@^4.41.2:
+webpack@^4.0.0:
   version "4.41.2"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.41.2.tgz#c34ec76daa3a8468c9b61a50336d8e3303dce74e"
   integrity sha512-Zhw69edTGfbz9/8JJoyRQ/pq8FYUoY0diOXqW0T6yhgdhCv6wr0hra5DwwWexNRns2Z2+gsnrNcbe9hbGBgk/A==
@@ -9416,6 +9462,35 @@ webpack@^4.0.0, webpack@^4.41.2:
     schema-utils "^1.0.0"
     tapable "^1.1.3"
     terser-webpack-plugin "^1.4.1"
+    watchpack "^1.6.0"
+    webpack-sources "^1.4.1"
+
+webpack@^4.41.4:
+  version "4.41.4"
+  resolved "https://registry.npm.taobao.org/webpack/download/webpack-4.41.4.tgz#4bec4125224bdf50efa8be6226c19047599cd034"
+  integrity sha1-S+xBJSJL31DvqL5iJsGQR1mc0DQ=
+  dependencies:
+    "@webassemblyjs/ast" "1.8.5"
+    "@webassemblyjs/helper-module-context" "1.8.5"
+    "@webassemblyjs/wasm-edit" "1.8.5"
+    "@webassemblyjs/wasm-parser" "1.8.5"
+    acorn "^6.2.1"
+    ajv "^6.10.2"
+    ajv-keywords "^3.4.1"
+    chrome-trace-event "^1.0.2"
+    enhanced-resolve "^4.1.0"
+    eslint-scope "^4.0.3"
+    json-parse-better-errors "^1.0.2"
+    loader-runner "^2.4.0"
+    loader-utils "^1.2.3"
+    memory-fs "^0.4.1"
+    micromatch "^3.1.10"
+    mkdirp "^0.5.1"
+    neo-async "^2.6.1"
+    node-libs-browser "^2.2.1"
+    schema-utils "^1.0.0"
+    tapable "^1.1.3"
+    terser-webpack-plugin "^1.4.3"
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
 

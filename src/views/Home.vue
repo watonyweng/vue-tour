@@ -39,12 +39,12 @@
   </div>
 </template>
 <script>
-import 'katex/dist/katex.min.css'
-import 'katex/dist/katex.min.js'
+import 'katex/dist/katex.min.css';
+import 'katex/dist/katex.min.js';
 
 export default {
   name: 'Home'
-}
+};
 </script>
 <style lang="scss" scoped>
 .page-container {

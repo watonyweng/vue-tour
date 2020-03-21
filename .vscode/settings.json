@@ -11,5 +11,8 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "prettier.semi": false,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

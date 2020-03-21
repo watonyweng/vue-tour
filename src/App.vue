@@ -9,13 +9,12 @@
   </el-container>
 </template>
 <script>
-import AppHeader from './components/Header'
+import AppHeader from './components/Header';
 export default {
   name: 'App',
   components: {
     AppHeader
   }
-}
+};
 </script>
-<style scoped="sass">
-</style>
+<style scoped="sass"></style>

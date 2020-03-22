@@ -33,7 +33,7 @@
     "git-contributor": "^1.0.10",
     "lint-staged": "^10.0.8",
     "node-sass": "^4.13.1",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.1",
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.9.1",

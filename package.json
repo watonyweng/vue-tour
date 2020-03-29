@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "gh-pages": "^2.2.0",
     "git-contributor": "^1.0.10",
-    "lint-staged": "^10.0.8",
+    "lint-staged": "^10.0.10",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",

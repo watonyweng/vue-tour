@@ -997,10 +997,10 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.npm.taobao.org/@vue/babel-preset-app/download/@vue/babel-preset-app-4.3.0.tgz?cache=0&sync_timestamp=1586008809947&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-preset-app%2Fdownload%2F%40vue%2Fbabel-preset-app-4.3.0.tgz#a31ef1a3543dadf108c584a6359e25b3af38414a"
-  integrity sha1-ox7xo1Q9rfEIxYSmNZ4ls684QUo=
+"@vue/babel-preset-app@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-4.3.1.tgz#bb67aae562983067c5b242c27fb7de17f40cf109"
+  integrity sha512-iNkySkbRWXGUA+Cvzj+/gEP0Y0uVAwwzfn21S7hkggSeIg9LJyZ+QzdxgKO0wgi01yTdb2mYWgeLQAfHZ65aew==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/helper-compilation-targets" "^7.8.7"
@@ -1069,14 +1069,14 @@
   resolved "https://registry.npm.taobao.org/@vue/cli-overlay/download/@vue/cli-overlay-4.3.0.tgz#85cfa6dccad0bc8997eef906919704e0b139f545"
   integrity sha1-hc+m3MrQvImX7vkGkZcE4LE59UU=
 
-"@vue/cli-plugin-babel@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-4.3.0.tgz?cache=0&sync_timestamp=1586036118853&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-4.3.0.tgz#0cffc1a83b48b660615c1e9cf25128e72458c018"
-  integrity sha1-DP/BqDtItmBhXB6c8lEo5yRYwBg=
+"@vue/cli-plugin-babel@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.3.1.tgz#6e3a6aa18595b98ad5c52898a2850d452404712b"
+  integrity sha512-tBqu0v1l4LfWX8xuJmofpp+8xQzKddFNxdLmeVDOX/omDBQX0qaVDeMUtRxxSTazI06SKr605SnUQoa35qwbvw==
   dependencies:
     "@babel/core" "^7.9.0"
-    "@vue/babel-preset-app" "^4.3.0"
-    "@vue/cli-shared-utils" "^4.3.0"
+    "@vue/babel-preset-app" "^4.3.1"
+    "@vue/cli-shared-utils" "^4.3.1"
     babel-loader "^8.1.0"
     cache-loader "^4.1.0"
     thread-loader "^2.1.3"
@@ -1164,10 +1164,10 @@
     webpack-dev-server "^3.10.3"
     webpack-merge "^4.2.2"
 
-"@vue/cli-shared-utils@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.npm.taobao.org/@vue/cli-shared-utils/download/@vue/cli-shared-utils-4.3.0.tgz?cache=0&sync_timestamp=1586008809709&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-shared-utils%2Fdownload%2F%40vue%2Fcli-shared-utils-4.3.0.tgz#fad826cbc702a16b7c36841dc16ef3cff6f0ea40"
-  integrity sha1-+tgmy8cCoWt8NoQdwW7zz/bw6kA=
+"@vue/cli-shared-utils@^4.3.0", "@vue/cli-shared-utils@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.3.1.tgz#a74bf4d53825d4a4b05a84b03e023974871bc38a"
+  integrity sha512-lcfRalou7Z9jZgIh9PeTIpwDK7RIjr9OxfLGwbdR8czUZYUeUa67zVEMJD0OPYh/CCoREtzNbVfLPb/IYYxWEA==
   dependencies:
     "@hapi/joi" "^15.0.1"
     chalk "^2.4.2"

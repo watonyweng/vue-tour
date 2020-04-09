@@ -1,6 +1,7 @@
 # vue-tour
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvue-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvue-tour?ref=badge_shield)
+![Node](https://github.com/watonyweng/vue-tour/workflows/Node/badge.svg)
 
 This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
 

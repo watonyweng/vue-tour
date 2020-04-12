@@ -1,20 +1,20 @@
 # vue-tour
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwatonyweng%2Fvue-tour.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwatonyweng%2Fvue-tour?ref=badge_shield)
-![Node](https://github.com/watonyweng/vue-tour/workflows/Node/badge.svg)
+![Node.js](https://github.com/watonyweng/vue-tour/workflows/nodejs/badge.svg)
 
-This project was generated using [vue-cli](https://github.com/vuejs/vue-cli).
+This project was generated using [vue-cli](https://github.com/vuejs/vue-cli) and [element](https://github.com/ElemeFE/element).
 
 ## Environment
 
-- [Node](https://nodejs.org)
+- [Node.js](https://nodejs.org)
 - [Git](https://git-scm.com)
 
 ## Requirements
 
 - [![Platform Support](https://img.shields.io/badge/Node-12.10.0-green)](https://nodejs.org)
 - [![Platform Support](https://img.shields.io/badge/Vue-2.6.11-green)](https://vuejs.org)
-- [![Platform Support](https://img.shields.io/badge/Git-2.22.0-green)](https://git-scm.com)
+- [![Platform Support](https://img.shields.io/badge/Git-2.25.0-green)](https://git-scm.com)
 
 ## FullStack
 

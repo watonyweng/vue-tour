@@ -1,32 +1,56 @@
 <template>
   <div class="page-container">
-    <mavon-editor
+    <quill-editor
+      ref="quillEditor"
       v-model="content"
-      style="height: 100%"
-      @upload="uploadImage"
-      @change="changeMavon"
+      :options="editorOption"
+      @blur="onEditorBlur($event)"
+      @focus="onEditorFocus($event)"
+      @ready="onEditorReady($event)"
     />
   </div>
 </template>
 <script>
-import { mavonEditor } from 'mavon-editor';
-import 'mavon-editor/dist/css/index.css';
+import 'quill/dist/quill.core.css';
+import 'quill/dist/quill.snow.css';
+import 'quill/dist/quill.bubble.css';
+
+import { quillEditor } from 'vue-quill-editor';
 
 export default {
   name: 'Editor',
   components: {
-    mavonEditor
+    quillEditor,
   },
   data() {
     return {
-      content: '',
-      configs: {}
+      content: '<h3>I am quill editor</h3>',
+      editorOption: {},
     };
   },
+  computed: {
+    editor() {
+      return this.$refs.quillEditor.quill;
+    },
+  },
+  mounted() {
+    console.log('this is current quill instance object', this.editor);
+  },
   methods: {
-    changeMavon() {},
-    uploadImage() {}
-  }
+    onEditorBlur(quill) {
+      console.log('editor blur', quill);
+    },
+    onEditorFocus(quill) {
+      console.log('editor focus', quill);
+    },
+    onEditorReady(quill) {
+      console.log('editor ready', quill);
+    },
+    onEditorChange({ quill, html, text }) {
+      console.log('editor change!', quill, html, text);
+      this.content = html;
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>

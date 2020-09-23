@@ -19,7 +19,7 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli) and
 ## FullStack
 
 - [KaTeX](https://github.com/KaTeX/KaTeX)
-- [Mavon Editor](https://github.com/hinesboy/mavonEditor)
+- [Quill Editor](https://github.com/surmon-china/vue-quill-editor)
 
 ## Installation
 

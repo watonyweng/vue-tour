@@ -37,7 +37,7 @@
     "node-forge": "^0.10.0",
     "prettier": "^2.1.2",
     "sass": "^1.26.11",
-    "sass-loader": "^10.0.2",
+    "sass-loader": "^10.0.3",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.9.3",
     "vue-svg-loader": "^0.16.0",

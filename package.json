@@ -16,7 +16,7 @@
     "vue": "^2.6.12",
     "vue-katex": "^0.5.0",
     "vue-quill-editor": "^3.0.6",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.7",

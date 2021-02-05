@@ -11,43 +11,43 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "element-ui": "^2.14.1",
+    "element-ui": "^2.15.0",
     "katex": "^0.12.0",
     "vue": "^2.6.12",
     "vue-katex": "^0.5.0",
     "vue-quill-editor": "^3.0.6",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.7",
-    "@vue/cli-plugin-eslint": "^4.5.7",
-    "@vue/cli-service": "^4.5.6",
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-runtime": "^6.26.0",
     "cache-loader": "^4.1.0",
     "css-loader": "^5.0.1",
-    "eslint": "^6.8.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^7.3.0",
+    "eslint": "^7.19.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
     "gh-pages": "^3.1.0",
     "git-contributor": "^1.0.10",
     "lint-staged": "^10.5.3",
     "node-forge": "^0.10.0",
     "prettier": "^2.2.1",
-    "sass": "^1.32.4",
-    "sass-loader": "^10.1.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.0",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.9.6",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^4.46.0",
+    "webpack": "^5.20.2",
     "websocket-extensions": "^0.1.4",
     "yargs-parser": "^20.2.4"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0",
+    "eslint": "^5.0.0 || ^6.0.0|| ^7.0.0",
     "katex": "^0.10.2"
   },
   "eslintConfig": {
@@ -71,7 +71,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not ie <= 8"
+    "not ie <= 11"
   ],
   "homepage": "https://github.com/watonyweng/vue-tour",
   "gitHooks": {

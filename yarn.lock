@@ -8454,10 +8454,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsafer-buffer%2Fdownload%2Fsafer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-sass-loader@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-11.0.0.tgz?cache=0&sync_timestamp=1612529921168&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsass-loader%2Fdownload%2Fsass-loader-11.0.0.tgz#5263c486afd0a1694bdd47abd533eabee00f9e37"
-  integrity sha1-UmPEhq/QoWlL3Uer1TPqvuAPnjc=
+sass-loader@^11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-11.0.1.tgz#8672f896593466573b904f47693e0695368e38c9"
+  integrity sha512-Vp1LcP4slTsTNLEiDkTcm8zGN/XYYrZz2BZybQbliWA8eXveqA/AxsEjllQTpJbg2MzCsx/qNO48sHdZtOaxTw==
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"

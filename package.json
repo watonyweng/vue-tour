@@ -1,9 +1,9 @@
 {
   "name": "vuejs-tour",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "contributor": "git-contributor",
@@ -12,23 +12,23 @@
   },
   "dependencies": {
     "element-ui": "^2.15.1",
-    "katex": "^0.12.0",
+    "katex": "^0.13.2",
     "vue": "^2.6.12",
     "vue-katex": "^0.5.0",
     "vue-quill-editor": "^3.0.6",
     "vue-router": "^3.5.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.11",
-    "@vue/cli-plugin-eslint": "^4.5.11",
-    "@vue/cli-service": "^4.5.11",
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-runtime": "^6.26.0",
     "cache-loader": "^4.1.0",
-    "css-loader": "^5.0.2",
-    "eslint": "^7.21.0",
+    "css-loader": "^5.2.1",
+    "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.8.0",
     "gh-pages": "^3.1.0",
@@ -37,18 +37,18 @@
     "node-forge": "^0.10.0",
     "prettier": "^2.2.1",
     "sass": "^1.32.8",
-    "sass-loader": "^11.0.1",
+    "sass-loader": "^9.0.3",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-loader": "^15.9.6",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.24.3",
+    "webpack": "^4.46.0",
     "websocket-extensions": "^0.1.4",
     "yargs-parser": "^20.2.7"
   },
   "peerDependencies": {
-    "eslint": "^5.0.0 || ^6.0.0|| ^7.0.0",
-    "katex": "^0.10.2"
+    "eslint": "^5.0.0 || ^6.0.0",
+    "katex": "^0.12"
   },
   "eslintConfig": {
     "root": true,

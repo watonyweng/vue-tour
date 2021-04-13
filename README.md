@@ -12,9 +12,9 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli) and
 
 ## Requirements
 
-- [![Platform Support](https://img.shields.io/badge/Node-12.10.0-green)](https://nodejs.org)
-- [![Platform Support](https://img.shields.io/badge/Vue-2.6.11-green)](https://vuejs.org)
-- [![Platform Support](https://img.shields.io/badge/Git-2.25.0-green)](https://git-scm.com)
+- [![Platform Support](https://img.shields.io/badge/Node-12.22.1-green)](https://nodejs.org)
+- [![Platform Support](https://img.shields.io/badge/Vue-2.6.12-green)](https://vuejs.org)
+- [![Platform Support](https://img.shields.io/badge/Git-2.28.0-green)](https://git-scm.com)
 
 ## FullStack
 
@@ -24,7 +24,7 @@ This project was generated using [vue-cli](https://github.com/vuejs/vue-cli) and
 ## Installation
 
 - git clone <https://github.com/watonyweng/vue-tour.git>
-- cd vuejs-tour && yarn
+- cd vue-tour && yarn
 
 ## Serve
 
